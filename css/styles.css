@@ -2,19 +2,14 @@
     margin: 0em;
     padding: 0em;
     box-sizing: border-box;
-    
-    
 }
-
 .base{ 
     width: 10em;
     height: 10.3em;
     margin-top: 0em;
     margin-left:;
-    box-shadow: 0 , 5em , 8em, 0 black;
-    
+    box-shadow: 0 , 5em , 8em, 0 black;   
 }
-
 .baseDegradado{
     width: 10em;
     height: 7.5em;
@@ -25,7 +20,6 @@
     background-color: aqua;
     box-shadow: 0 , 5em , 8em, 0 black;
 }
-
 .basePequenyaDegradado { 
     width: 10em;
     height: 0.3em;
@@ -33,17 +27,14 @@
     padding: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
-
 .basePequenyaDegradadoRelleno1{
     width: 1rem;
     height: 0.3rem;
     margin: 0em;
     background-color: white;
 }
-
 .basePequenyaDegradadoContenido{ 
     width: 7rem;
     height: 0.3rem;
@@ -57,12 +48,10 @@
     margin: 0em;
     background-color: white;
 }
-
 .columnas { 
     display: flex;
     flex-direction: row;
 }
-
 .columna1{
     width: 0.7em;
     height: 20em;
@@ -78,6 +67,36 @@
     height: 20em;
     background-color:#d6dadc ;
 }
+.columna3Fila1{ 
+    width: 1.72em;
+    height: 1.72em;
+    background-color: red;
+}
+.columna3Fila2 { 
+    width: 1.72em;
+    height: 1em;
+    background-color: blue;
+}
+.columna3Fila3{
+    width: 1.72em;
+    height: 1.3em;
+    background-color: orange;
+}
+.columna3Fila4{
+    width: 1.72em;
+    height: 1em;
+    background-color: blue;
+}
+.columna3Fila5{ 
+    width: 1.72em;
+    height: 2.5em;
+    background-color: red;
+}
+.columna3Fila6{
+    width: 1.72em;
+    height: 8em;
+    background-color: blue;
+}
 .columna4{
     width: 1.72em;
     height: 20em;
@@ -88,7 +107,19 @@
     height: 20em;
     background-color:#d6dadc ;
 }
-
+.columna5Fila1{
+    width: 1.72em;
+    height: 1.72em;
+    
+}
+.columna5Fila2{
+    width: 1.72em;
+    height: 18.2em;
+    border-radius: 50% ;
+    background-color: #2c3c63;
+    
+    
+}
 .columna6{
     width: 1.72em;
     height: 20em;
@@ -99,21 +130,17 @@
     height: 20em;
     background-color:white ;
 }
-
 .logoWii{ 
     height: 1.5em;
     width: 10em;
-    background-color: darkmagenta;
     display: flex;
     flex-direction: row;
 }
-
 .rellenoLogo1{ 
     width: 0.7em;
     height: 1.5em;
     background-color: white;
 }
-
 .contenedorLogoWii{ 
     width: 8.6em;
     height: 1.5em;
@@ -121,7 +148,6 @@
     display: flex;
     flex-direction: row;
 }
-
 .subcontenedorLogoWii1{ 
     width: 1.72em;
     height: 1.5em;
@@ -129,14 +155,11 @@
     justify-content: flex-start;
     background-color: #f7f8f8;
 }
-
-
 .rellenoLogo2 { 
     width: 0.7em;
     height: 1.5em;
     background-color: white;
 }
-
 .general { 
     margin: 10em;
 }
