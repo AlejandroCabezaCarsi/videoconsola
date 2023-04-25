@@ -9,8 +9,8 @@
 .base{ 
     width: 10em;
     height: 10.3em;
-    margin-top: 25em;
-    margin-left: 25em;
+    margin-top: 0em;
+    margin-left:;
     box-shadow: 0 , 5em , 8em, 0 black;
     
 }
@@ -56,4 +56,87 @@
     height: 0.3rem;
     margin: 0em;
     background-color: white;
+}
+
+.columnas { 
+    display: flex;
+    flex-direction: row;
+}
+
+.columna1{
+    width: 0.7em;
+    height: 20em;
+    background-color: white ;
+}
+.columna2{
+    width: 1.72em;
+    height: 20em;
+    background-color:#f7f8f8 ;
+}
+.columna3{
+    width: 1.72em;
+    height: 20em;
+    background-color:#d6dadc ;
+}
+.columna4{
+    width: 1.72em;
+    height: 20em;
+    background-color: #d6dadc ;
+}
+.columna5{
+    width: 1.72em;
+    height: 20em;
+    background-color:#d6dadc ;
+}
+
+.columna6{
+    width: 1.72em;
+    height: 20em;
+    background-color:#d6dadc ;
+}
+.columna7{
+    width: 0.7em;
+    height: 20em;
+    background-color:white ;
+}
+
+.logoWii{ 
+    height: 1.5em;
+    width: 10em;
+    background-color: darkmagenta;
+    display: flex;
+    flex-direction: row;
+}
+
+.rellenoLogo1{ 
+    width: 0.7em;
+    height: 1.5em;
+    background-color: white;
+}
+
+.contenedorLogoWii{ 
+    width: 8.6em;
+    height: 1.5em;
+    background-color: #d6dadc ;
+    display: flex;
+    flex-direction: row;
+}
+
+.subcontenedorLogoWii1{ 
+    width: 1.72em;
+    height: 1.5em;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f7f8f8;
+}
+
+
+.rellenoLogo2 { 
+    width: 0.7em;
+    height: 1.5em;
+    background-color: white;
+}
+
+.general { 
+    margin: 10em;
 }
