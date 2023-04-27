@@ -181,8 +181,26 @@ background: linear-gradient(90deg, rgba(230,233,233,1) 20%, rgba(204,208,213,1) 
     border: grey 1px solid;
     border-top-right-radius: 0.2em ;
     border-bottom-right-radius: 0.2em;
-    border-left: none;
-    
+    border-left: none; 
+    display: flex;
+    flex-direction: row; 
+}
+.greenRed{
+height: 100%;
+width: 30%;
+
+border-radius: 50%;
+}
+.power{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fotoPower {
+    height: 50%;
+    color: grey;
 }
 .columna2Fila3{
     width: 100%;
@@ -209,7 +227,19 @@ background: linear-gradient(90deg, rgba(230,233,233,1) 20%, rgba(204,208,213,1) 
     border-top-right-radius: 0.2em ;
     border-bottom-right-radius: 0.2em;
     border-left: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 
+.compuerta{ 
+    width: 15%;
+    height: 25%;
+    border: solid grey 1px;
+    border-right: none;
+    border-top-left-radius: 0.2em;
+    border-bottom-left-radius: 0.2em;
+    box-shadow: inset black 0 0.1em 0.1em 0;
 }
 .columna2Fila7{
     width: 100%;
@@ -299,16 +329,17 @@ background-color: green;
 .baseGrande{ 
     height: 97%;
     width: 35%;
-    background-color: red;
     display: flex;
     justify-content:flex-start;
     align-items: center;
+    background: rgb(219,220,224);
+background: linear-gradient(90deg, rgba(219,220,224,1) 16%, rgba(167,171,180,1) 17%);
 }
 
 .basePequenya{
     height: 3%;
     width: 30%;
-    background-color: blue;
+    background-color: black;
 }
 
 .relleno2{
