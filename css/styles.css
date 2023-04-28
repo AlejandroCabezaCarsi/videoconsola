@@ -1,5 +1,10 @@
 *{
     box-sizing: border-box;
+    font-family: 'Continuum Light', sans-serif;
+    font-weight: bold;
+    color: grey;
+    font-size: 0.93em;
+                                                
 }
 
 body{ 
@@ -188,15 +193,35 @@ background: linear-gradient(90deg, rgba(230,233,233,1) 20%, rgba(204,208,213,1) 
 .greenRed{
 height: 100%;
 width: 30%;
+border-radius: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 10%;
 
-border-radius: 50%;
+}
+
+.led{
+    width: 80%;
+    height: 30%;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 10%;
 }
 .power{
-    height: 100%;
-    width: 70%;
+    height: 70%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../img/powergris.png);
+    background-size: contain;
+    margin-top: 0.36em;
+    margin-left: 0.35em;
+    background-repeat: no-repeat;
+
+
+    
 }
 .fotoPower {
     height: 50%;
@@ -244,6 +269,8 @@ border-radius: 50%;
 .columna2Fila7{
     width: 100%;
     height:15% ;
+    display: flex;
+    align-items: flex-end;
 }
 .columna2Fila8{
     width: 100%;
@@ -252,6 +279,9 @@ border-radius: 50%;
     border-top-right-radius: 0.2em ;
     border-bottom-right-radius: 0.2em;
     border-left: none;
+    background-image: url(../img/ejectgris.png);
+    
+
 }
 .columna2Fila9{
     width: 100%;
