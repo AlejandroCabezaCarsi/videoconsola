@@ -441,7 +441,6 @@ background: linear-gradient(346deg, rgba(207,222,224,1) 46%, rgba(231,234,235,1)
 .mandoFila3{ 
 width: 100%;
 height: 15%;
-background-color: aqua;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -450,13 +449,138 @@ align-items: center;
 .cruceta{ 
     width: 55%;
     height: 90%;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
+
+.crucetaFila1{
+    width: 90%;
+    height: 33.33%;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.crucetaFila1Columna1{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.crucetaFila1Columna1Top{
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    display: flex ;
+    flex-direction: row;
+}
+
+.crucetaFila1Columna1TopLeft{ 
+    width: 50%;
+    height: 100%;
+    background-color: purple;
+}
+.crucetaFila1Columna1TopRight{
+    width: 50%;
+    height: 100%;
+    background-color: violet;
+    border-right: 50% solid black 0.1em;
+}
+
+.crucetaFila1Columna1Bottom{
+    width: 100%;
+    height: 50%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+}
+.crucetaFila1Columna1BottomLeft{
+    height: 100%;
+    width: 50%;
+    background-color: orange;
+}
+.crucetaFila1Columna1BottomRight{
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+    border: solid black 0.1em;
+    border-bottom-right-radius: 0.2em;
+    border-left: none;
+    border-top: none;
+    box-sizing: content-box;
+}
+.crucetaFila1Columna2{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.crucetaFila1Columna2Top{
+    width: 100%;
+    height: 50%;
+    background-color: yellow;
+}
+.crucetaFila1Columna2TopLeft{
+    height: 100%;
+    width: 50%;
+    background-color: green;
+    border: solid black 0.1em;
+    border-bottom: none;
+    border-right: none;
+    border-top-left-radius: 0.2em;
+    box-sizing: content-box;
+}
+.crucetaFila1Columna3{
+    width: 33.33%;
+    height: 100%;
+}
+.crucetaFila2{
+    width: 90%;
+    height: 33.33%;
+    display: flex;
+    flex-direction: row;
+}
+.crucetaFila2Columna1{
+    width: 33.33%;
+    height: 100%;
+}
+.crucetaFila2Columna2{
+    width: 33.33%;
+    height: 100%;
+}
+.crucetaFila2Columna3{
+    width: 33.33%;
+    height: 100%;
+}
+.crucetaFila3{
+    width: 90%;
+    height: 33.33%;
+    display: flex;
+    flex-direction: row;
+}
+
+.crucetaFila3Columna1{ 
+    width: 33.33%;
+    height: 100%;
+}
+.crucetaFila3Columna2{ 
+    width: 33.33%;
+    height: 100%;
+}
+.crucetaFila3Columna3{ 
+    width: 33.33%;
+    height: 100%;
+}
+
+
 
 .mandoFila4{ 
     width: 100%;
     height: 20% ;
-    background-color: orange;
+    
     display: flex;
     justify-content: center;
 }
@@ -469,16 +593,12 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.textoBotonA { 
-    font-size:larger;
+    font-size:large;
 }
 
 .mandoFila5{ 
     width: 100%;
     height: 5%;
-    background-color: aqua;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -488,28 +608,34 @@ align-items: center;
 .botonMenos{ 
     width: 15%;
     height: 70%;
-    background-color: red;
     border-radius: 50%;
+    background-image: url(../img/menosB.png);
+    background-size: cover;
+    
 }
 
 .botonHome{ 
     width: 15%;
     height: 70%;
-    background-color: red;
     border-radius: 50%;
+    background-image: url(../img/homeazulB.png);
+    background-size: cover;
+    box-shadow: inset 0 0 1px 1px black, 
+    0 0 1px 1px grey;
 }
 
 .botonMas{
     width: 15%;
     height: 70%;
-    background-color: red;
+    
     border-radius: 50%;
+    background-image: url(../img/masB.png);
+    background-size: cover;
 }
 
 .mandoFila6{
     height: 2% ;
     width: 100%; 
-    background-color: blueviolet;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -523,29 +649,189 @@ align-items: center;
 .mandoFila7 { 
     width: 100%;
     height: 19%;
-    background-color: darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.generalPuntitos{ 
+    width: 23%;
+    height: 80%;
+    background-color: blue;
+    
+}
+
+.puntitosFila1{
+    width: 100%;
+    height: 16.66%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+
+.puntitosF1Columna1{
+    height: 0.2em;
+    width: 0.2em;
+    background-color: black;
+    border-radius: 50%;
+}
+.puntitosF1Columna2{
+    height: 0.2em;
+    width: 0.2em;
+    background-color: black;
+    border-radius: 50%;
+}
+.puntitosF1Columna3{
+    height: 0.2em;
+    width: 0.2em;
+    background-color: black;
+    border-radius: 50%;
+}
+.puntitosFila2{
+    width: 100%;
+    height: 16.66%;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+} 
+.puntitosFila3{
+    width: 100%;
+    height: 16.66%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.puntitosFila4{
+    width: 100%;
+    height: 16.66%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.puntitosFila5{
+    width: 100%;
+    height: 16.66%;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.puntitosFila6{
+    width: 100%;
+    height: 16.66%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+} 
 
 .mandoFila8{ 
     width: 100%;
     height: 17%;
-    background-color: aqua;
 }
 
+.mandoF8F1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton1{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+.mandoF8F2{ 
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton2{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: bolder;
+}
 .mandoFila9{
     width: 100%;
     height: 2%;
     background-color: violet ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    align-items: center;
+    font-size: medium;
 }
+
+
 
 .mandoFila10 { 
     width: 100%;
     height: 4%;
-    background-color: orangered;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cuadradoLed1{
+    height: 0.7em;
+    width: 0.7em;
+    background-color: #07a4cc;
+    box-shadow:  #3cd8ff 0 0 5px 1px;
+}
+.cuadradoLed2{
+    height: 0.7em;
+    width: 0.7em;
+    background-color:rgb(71, 65, 65) ;}
+.cuadradoLed3{
+    height: 0.7em;
+    width: 0.7em;
+    background-color:rgb(71, 65, 65) ;}
+.cuadradoLed4{
+    height: 0.7em;
+    width: 0.7em;
+    background-color:rgb(71, 65, 65) ;
 }
 
 .mandoFila11{ 
     width: 100%;
     height: 6%;
-    background-color: rgba(0, 255, 255, 0.42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoWiiMando{
+    width: 30%;
+    height: 100%;
+    background-image: url(../img/wiilogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
