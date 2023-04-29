@@ -453,130 +453,116 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 
 }
 
-.crucetaFila1{
-    width: 90%;
+.crucetaFila1 { 
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+    flex-direction: row;
+}
+
+.crucetaF1C1{
+    width: 33.33%;
+    height: 100%;
+    
+}
+.crucetaF1C2{
+    width: 33.33%;
+    height: 100%;
+    border-top-right-radius: 0.2em;
+    border-top-left-radius: 0.2em;
+    border: solid grey 0.1em   ;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.crucetaF1C3{
+    width: 33.33%;
+    height: 100%;
+    
+}
+
+.crucetaFila2{ 
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+    flex-direction: row;
+}
+.crucetaF2C1{
+    width: 33.33%;
+    height: 100%;
+    border-top-left-radius: 0.2em;
+    border-bottom-left-radius: 0.2em;
+    border: solid grey 0.1em;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paloVertical{ 
+    width: 10%;
+    height: 70%;
+    background-color: grey;
+    border-radius: 1000px;
+}
+
+.paloHorizontal{ 
+    width: 70%;
+    height: 12%;
+    background-color: grey;
+    border-radius: 1000px;
+}
+.crucetaF2C2{
+    width: 33.33%;
+    height: 100%;    
+}
+.crucetaF2C3{
+    width: 33.33%;
+    height: 100%;
+    border-top-right-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+    border: solid grey 0.1em;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crucetaFila3{ 
+    width: 100%;
     height: 33.33%;
     
     display: flex;
     flex-direction: row;
 }
 
-.crucetaFila1Columna1{
+.crucetaF3C1{
     width: 33.33%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    
 }
-.crucetaFila1Columna1Top{
-    width: 100%;
-    height: 50%;
-    background-color: red;
-    display: flex ;
-    flex-direction: row;
-}
-
-.crucetaFila1Columna1TopLeft{ 
-    width: 50%;
+.crucetaF3C2{
+    width: 33.33%;
     height: 100%;
-    background-color: purple;
-}
-.crucetaFila1Columna1TopRight{
-    width: 50%;
-    height: 100%;
-    background-color: violet;
-    border-right: 50% solid black 0.1em;
-}
-
-.crucetaFila1Columna1Bottom{
-    width: 100%;
-    height: 50%;
-    background-color: yellow;
-    display: flex;
-    flex-direction: row;
-}
-.crucetaFila1Columna1BottomLeft{
-    height: 100%;
-    width: 50%;
-    background-color: orange;
-}
-.crucetaFila1Columna1BottomRight{
-    height: 100%;
-    width: 50%;
-    background-color: aqua;
-    border: solid black 0.1em;
+    border-bottom-left-radius: 0.2em;
     border-bottom-right-radius: 0.2em;
-    border-left: none;
-    border-top: none;
-    box-sizing: content-box;
-}
-.crucetaFila1Columna2{
-    width: 33.33%;
-    height: 100%;
+    border: solid grey 0.1em;
+    border-top: none; 
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
 }
-.crucetaFila1Columna2Top{
-    width: 100%;
-    height: 50%;
-    background-color: yellow;
-}
-.crucetaFila1Columna2TopLeft{
-    height: 100%;
-    width: 50%;
-    background-color: green;
-    border: solid black 0.1em;
-    border-bottom: none;
-    border-right: none;
-    border-top-left-radius: 0.2em;
-    box-sizing: content-box;
-}
-.crucetaFila1Columna3{
+.crucetaF3C3{
     width: 33.33%;
     height: 100%;
+    
 }
-.crucetaFila2{
-    width: 90%;
-    height: 33.33%;
-    display: flex;
-    flex-direction: row;
-}
-.crucetaFila2Columna1{
-    width: 33.33%;
-    height: 100%;
-}
-.crucetaFila2Columna2{
-    width: 33.33%;
-    height: 100%;
-}
-.crucetaFila2Columna3{
-    width: 33.33%;
-    height: 100%;
-}
-.crucetaFila3{
-    width: 90%;
-    height: 33.33%;
-    display: flex;
-    flex-direction: row;
-}
-
-.crucetaFila3Columna1{ 
-    width: 33.33%;
-    height: 100%;
-}
-.crucetaFila3Columna2{ 
-    width: 33.33%;
-    height: 100%;
-}
-.crucetaFila3Columna3{ 
-    width: 33.33%;
-    height: 100%;
-}
-
-
-
 .mandoFila4{ 
     width: 100%;
     height: 20% ;
@@ -587,13 +573,21 @@ align-items: center;
 .botonA{ 
     width: 35%;
     height: 40%;
-    background-color: white;
     margin-top: 10%;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size:large;
+    box-shadow: inset 0.1em 0.2em 0.3em 0.1em black,
+    inset -0.12em 0em 0.3em 0.3em white;
+}
+
+.botonA::after{ 
+    width: 0.3em;
+    height: 0.3em;
+    background-color: red;
+    border-radius: 50%;
 }
 
 .mandoFila5{ 
@@ -609,8 +603,10 @@ align-items: center;
     width: 15%;
     height: 70%;
     border-radius: 50%;
-    background-image: url(../img/menosB.png);
+    background-image: url(../img/menosmenosB.png);
     background-size: cover;
+    box-shadow: 0 0 1px 1px grey;
+   background-position: 2em;
     
 }
 
@@ -622,6 +618,7 @@ align-items: center;
     background-size: cover;
     box-shadow: inset 0 0 1px 1px black, 
     0 0 1px 1px grey;
+    background-position: 0;
 }
 
 .botonMas{
@@ -631,6 +628,8 @@ align-items: center;
     border-radius: 50%;
     background-image: url(../img/masB.png);
     background-size: cover;
+    box-shadow: 0 0 1px 1px grey;
+    background-position: 0;
 }
 
 .mandoFila6{
@@ -656,14 +655,12 @@ align-items: center;
 .generalPuntitos{ 
     width: 23%;
     height: 80%;
-    background-color: blue;
-    
+
 }
 
 .puntitosFila1{
     width: 100%;
     height: 16.66%;
-    background-color: red;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -691,49 +688,138 @@ align-items: center;
 .puntitosFila2{
     width: 100%;
     height: 16.66%;
-    background-color: green;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
-    
+    align-items: center;   
 } 
+
+.puntitosF2Columna1{
+    height: 0.3em;
+    width: 0.3em;
+    background-color: black;
+    border-radius: 50%;
+}
+.puntitosF2Columna2{
+    height: 0.3em;
+    width: 0.3em;
+    background-color: black;
+    border-radius: 50%;
+}
+.puntitosF2Columna3{
+    height: 0.3em;
+    width: 0.3em;
+    background-color: black;
+    border-radius: 50%;
+}
 .puntitosFila3{
     width: 100%;
     height: 16.66%;
-    background-color: yellow;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 } 
+
+.puntitosF3Columna1{
+    width: 0.5em;
+    height: 0.5em;
+    background-color: black;
+    border-radius: 50%;
+}
+.puntitosF3Columna2{
+    width: 0.5em;
+    height: 0.5em;
+    background-color: black;
+    border-radius: 50%;
+}
+.puntitosF3Columna3{
+    width: 0.5em;
+    height: 0.5em;
+    background-color: black;
+    border-radius: 50%;
+}
 .puntitosFila4{
     width: 100%;
     height: 16.66%;
-    background-color: aqua;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 } 
+
+.puntitosF4Columna1{
+    width: 0.5em;
+    height: 0.5em;
+    background-color: black;
+    border-radius: 50%;
+}
+.puntitosF4Columna2{
+    width: 0.5em;
+    height: 0.5em;
+    background-color: black;
+    border-radius: 50%;
+}
+.puntitosF4Columna3{
+    width: 0.5em;
+    height: 0.5em;
+    background-color: black;
+    border-radius: 50%;
+}
 .puntitosFila5{
     width: 100%;
     height: 16.66%;
-    background-color: royalblue;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 } 
+
+.puntitosF5Columna1{
+    height: 0.3em;
+    width: 0.3em;
+    background-color: black;
+    border-radius: 50%;
+}
+.puntitosF5Columna2{
+    height: 0.3em;
+    width: 0.3em;
+    background-color: black;
+    border-radius: 50%;
+}
+.puntitosF5Columna3{
+    height: 0.3em;
+    width: 0.3em;
+    background-color: black;
+    border-radius: 50%;
+}
 .puntitosFila6{
     width: 100%;
     height: 16.66%;
-    background-color: red;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 } 
+
+.puntitosF6Columna1{
+    height: 0.2em;
+    width: 0.2em;
+    background-color: black;
+    border-radius: 50%;
+}
+.puntitosF6Columna2{
+    height: 0.2em;
+    width: 0.2em;
+    background-color: black;
+    border-radius: 50%;
+}
+.puntitosF6Columna3{
+    height: 0.2em;
+    width: 0.2em;
+    background-color: black;
+    border-radius: 50%;
+}
 
 .mandoFila8{ 
     width: 100%;
@@ -751,12 +837,12 @@ align-items: center;
     width: 2em;
     height: 2em;
     border-radius: 50%;
-    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: larger;
     font-weight: bolder;
+    box-shadow: 0 0 1px 1px grey;
 }
 .mandoF8F2{ 
     width: 100%;
@@ -769,22 +855,100 @@ align-items: center;
     width: 2em;
     height: 2em;
     border-radius: 50%;
-    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: larger;
     font-weight: bolder;
+    box-shadow: 0 0 1px 1px grey;
 }
 .mandoFila9{
     width: 100%;
     height: 2%;
-    background-color: violet ;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly ;
     align-items: center;
-    font-size: medium;
+    font-size: large;
+}
+
+.braille1 {
+    height: 100%;
+    width: 15%;
+    margin-left: 0.9em;
+}
+
+.b1p1{
+    height: 0.15em;
+    width: 0.12em;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.braille2{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.b2p1{height: 0.15em;
+    width: 0.12em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;}
+.b2p2{height: 0.15em;
+    width: 0.12em;
+    background-color: red;
+    border-radius: 50%;}
+.braille3{
+    height: 100%;
+    width: 15%;
+    display: flex;
+}
+
+.b3p1{height: 0.15em;
+    width: 0.12em;
+    background-color: red;
+    border-radius: 50%;}
+.b3p2{height: 0.15em;
+    width: 0.12em;
+    background-color: red;
+    border-radius: 50%;}
+.b3p3{height: 0.15em;
+    width: 0.12em;
+    background-color: red;
+    border-radius: 50%;}
+.braille4{
+    height: 100%;
+    width: 15%;
+    margin-right: 0.1em;
+    display: flex;
+}
+
+.b4p1{
+    height: 0.15em;
+    width: 0.12em;
+    background-color: red;
+    border-radius: 50%; 
+}
+.b4p2{
+    height: 0.15em;
+    width: 0.12em;
+    background-color: red;
+    border-radius: 50%;
+}
+.b4p3{
+    height: 0.15em;
+    width: 0.12em;
+    background-color: red;
+    border-radius: 50%;
+}
+.b4p4{
+    height: 0.15em;
+    width: 0.12em;
+    background-color: red;
+    border-radius: 50%;
 }
 
 
