@@ -13,6 +13,8 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
 }
 
 .general {
@@ -27,6 +29,7 @@ body{
     width: 40%;
     display: flex;
     flex-direction: column;
+    
 }
 
 
@@ -43,6 +46,7 @@ width: 100%;
 display: flex;
 justify-content: center;
 align-items: flex-end;
+
 }
 
 .columnas{
@@ -51,7 +55,8 @@ align-items: flex-end;
     display: flex;
     flex-direction: row;
     background: rgb(230,233,233);
-background: linear-gradient(90deg, rgba(230,233,233,1) 20%, rgba(204,208,213,1) 22%);
+    background: linear-gradient(90deg, rgba(230,233,233,1) 20%, rgba(204,208,213,1) 22%);
+    box-shadow: 2px 1px 7px 3px black;
 }
 .columna1{ 
     width: 20%;
@@ -85,6 +90,9 @@ background: linear-gradient(90deg, rgba(230,233,233,1) 20%, rgba(204,208,213,1) 
     border-right: none;
     border-top-left-radius: 0.2em;
     border-bottom-left-radius: 0.2em;
+    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
+-moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
+box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
 }
 
 .columna1Fila3{ 
@@ -111,6 +119,9 @@ background: linear-gradient(90deg, rgba(230,233,233,1) 20%, rgba(204,208,213,1) 
     border-top-left-radius: 0.2em;
     border-bottom-left-radius: 0.2em;
     border-right: none;
+    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
+-moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
+box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
 }
 .columna1Fila5{ 
     width: 100%;
@@ -163,6 +174,9 @@ background: linear-gradient(90deg, rgba(230,233,233,1) 20%, rgba(204,208,213,1) 
     border-right: none;
     border-top-left-radius: 0.2em;
     border-bottom-left-radius: 0.2em;
+    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
+-moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
+box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
     
 }
 .columna1Fila9{ 
@@ -186,7 +200,8 @@ background: linear-gradient(90deg, rgba(230,233,233,1) 20%, rgba(204,208,213,1) 
     border-bottom-right-radius: 0.2em;
     border-left: none; 
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
+    
 }
 .greenRed{
 height: 100%;
@@ -277,7 +292,10 @@ margin-left: 10%;
     border-top-right-radius: 0.2em ;
     border-bottom-right-radius: 0.2em;
     border-left: none;
-    background-image: url(../img/ejectgris.png);
+    background-image: url(../img/ejectB\ \(1\)\ \(1\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 0.7em;
     
 
 }
@@ -361,7 +379,8 @@ align-items: center;
     justify-content:flex-start;
     align-items: center;
     background: rgb(219,220,224);
-background: linear-gradient(90deg, rgba(219,220,224,1) 16%, rgba(167,171,180,1) 17%);
+    background: linear-gradient(90deg, rgba(219,220,224,1) 16%, rgba(167,171,180,1) 17%);
+    box-shadow: 4px 3px 5px 1px black;
 }
 
 .basePequenya{
@@ -378,7 +397,6 @@ background: linear-gradient(90deg, rgba(219,220,224,1) 16%, rgba(167,171,180,1) 
 .mando{ 
     width: 15%;
     height: 100%;
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -390,7 +408,8 @@ background: linear-gradient(90deg, rgba(219,220,224,1) 16%, rgba(167,171,180,1) 
     width: 55%;
     background: rgb(207,222,224);
 background: linear-gradient(346deg, rgba(207,222,224,1) 46%, rgba(231,234,235,1) 65%);
-    border-radius: 2em;
+    border-radius: 1em;
+    box-shadow: 3px 4px 5px 2px black;
 }
 
 .mandoFila1{ 
@@ -413,18 +432,20 @@ background: linear-gradient(346deg, rgba(207,222,224,1) 46%, rgba(231,234,235,1)
     margin-bottom: 10%;
     margin-right: 0.4em;
     border-radius: 50%;
-    border: solid black 0.1em;
-    box-shadow: 0 0 0.3em 0em black;
+    box-shadow: inset 0 0 1px 1px black;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .botonPowerRojoIcono{ 
     width: 90%;
     height: 90%;
-    background-image: url(../img/vecteezy_power-icon-isolated-on-white-background-on-off-button_.png);
-    background-size: cover;
+    background-image: url(../img/powerBB.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 0.05em;
 }
 
 .mandoFila2{ 
@@ -479,6 +500,8 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 0px 0px 0px #000000;
+
 }
 .crucetaF1C3{
     width: 33.33%;
@@ -502,6 +525,8 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    -webkit-box-shadow: 0px 2px 0px 0px #000000; 
+box-shadow: 0px 2px 0px 0px #000000;
 }
 
 .paloVertical{ 
@@ -531,6 +556,7 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px 0px 0px #000000;
 }
 
 .crucetaFila3{ 
@@ -556,6 +582,8 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    box-shadow: 2px 2px 0px 0px #000000;
      
 }
 .crucetaF3C3{
@@ -605,8 +633,9 @@ align-items: center;
     border-radius: 50%;
     background-image: url(../img/menosmenosB.png);
     background-size: cover;
-    box-shadow: 0 0 1px 1px grey;
-   background-position: 2em;
+    box-shadow: 1px 1.15px 1px 2px grey;
+    background-position-x: 2.15em ;
+    
     
 }
 
@@ -628,7 +657,7 @@ align-items: center;
     border-radius: 50%;
     background-image: url(../img/masB.png);
     background-size: cover;
-    box-shadow: 0 0 1px 1px grey;
+    box-shadow: 1px 1.15px 1px 2px grey;
     background-position: 0;
 }
 
@@ -842,7 +871,7 @@ align-items: center;
     align-items: center;
     font-size: larger;
     font-weight: bolder;
-    box-shadow: 0 0 1px 1px grey;
+    box-shadow: 1px 1.15px 1px 2px grey;
 }
 .mandoF8F2{ 
     width: 100%;
@@ -860,7 +889,7 @@ align-items: center;
     align-items: center;
     font-size: larger;
     font-weight: bolder;
-    box-shadow: 0 0 1px 1px grey;
+    box-shadow: 1px 1.15px 1px 2px grey;
 }
 .mandoFila9{
     width: 100%;
@@ -875,13 +904,14 @@ align-items: center;
 .braille1 {
     height: 100%;
     width: 15%;
-    margin-left: 0.9em;
+    margin-left: 0.8em;
+    margin-top: 0.7em;
 }
 
 .b1p1{
     height: 0.15em;
     width: 0.12em;
-    background-color: red;
+    background-color: #808080;
     border-radius: 50%;
 }
 
@@ -890,64 +920,67 @@ align-items: center;
     width: 15%;
     display: flex;
     flex-direction: row;
+    margin-top: 0.7em;
     
 }
 
 .b2p1{height: 0.15em;
     width: 0.12em;
-    background-color: rgb(255, 255, 255);
+    background-color: #808080;
     border-radius: 50%;}
 .b2p2{height: 0.15em;
     width: 0.12em;
-    background-color: red;
+    background-color: #808080;
     border-radius: 50%;}
 .braille3{
     height: 100%;
     width: 15%;
     display: flex;
+    margin-top: 0.7em;
 }
 
 .b3p1{height: 0.15em;
     width: 0.12em;
-    background-color: red;
+    background-color: #808080;
     border-radius: 50%;}
 .b3p2{height: 0.15em;
     width: 0.12em;
-    background-color: red;
+    background-color: #808080;
     border-radius: 50%;}
 .b3p3{height: 0.15em;
     width: 0.12em;
-    background-color: red;
+    background-color: #808080;
     border-radius: 50%;}
 .braille4{
     height: 100%;
     width: 15%;
     margin-right: 0.1em;
     display: flex;
+    margin-top: 0.7em;
 }
 
 .b4p1{
     height: 0.15em;
     width: 0.12em;
-    background-color: red;
+    background-color: #808080;
     border-radius: 50%; 
 }
 .b4p2{
     height: 0.15em;
     width: 0.12em;
-    background-color: red;
+    background-color: #808080;
     border-radius: 50%;
 }
 .b4p3{
     height: 0.15em;
     width: 0.12em;
-    background-color: red;
+    background-color: #808080;
     border-radius: 50%;
 }
 .b4p4{
     height: 0.15em;
     width: 0.12em;
-    background-color: red;
+    background-color: #808080;
     border-radius: 50%;
 }
 
