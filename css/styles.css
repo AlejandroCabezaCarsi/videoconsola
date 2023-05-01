@@ -4,8 +4,7 @@
     font-weight: bold;
     color: grey;
     font-size: 0.93em;
-    user-select: none ;
-                                                
+    user-select: none ;                                              
 }
 
 body{ 
@@ -29,19 +28,16 @@ body{
     height: 100%;
     width: 40%;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column    
 }
 
-
-
-.consolaGeneral{ 
+.consolaGeneral { 
     height: 95%;
     width: 100%;
     display: flex;
     flex-direction: column;
 }
-.consola{ 
+.consola { 
 height: 77%;
 width: 100%;
 display: flex;
@@ -51,7 +47,7 @@ align-items: center;
 
 }
 
-.columnas{
+.columnas {
     width: 27%;
     height: 91.30%;
     display: flex;
@@ -61,8 +57,7 @@ align-items: center;
     box-shadow: 2px 1px 7px 3px black;
 }
 
-
-.columna1{ 
+.columna1 { 
     width: 20%;
     height: 100%;
     
@@ -74,20 +69,20 @@ align-items: center;
     width: 100%;
     height: 8.6% ;
 }
-.columna1Fila2{ 
+
+.columna1Fila2 { 
     width: 100%;
     height: 5% ;
     display: flex;
-    flex-direction: row;
-    
-}
-.c1f2Fondo{
-    width: 50%;
-    height: 100%;
-    
+    flex-direction: row;    
 }
 
-.c1f2Boton{ 
+.c1f2Fondo {
+    width: 50%;
+    height: 100%;  
+}
+
+.c1f2Boton { 
     width: 50%;
     height: 100%;
     border: grey 1px solid;
@@ -99,23 +94,26 @@ align-items: center;
 box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
 }
 
-.columna1Fila3{ 
+.columna1Fila3 { 
     width: 100%;
     height: 6.5%;
 }
-.columna1Fila4{
+
+.columna1Fila4 {
     width: 100%;
     height: 5% ;
     display: flex;
     flex-direction: row;
 }
-.c1f4Fondo{
+
+.c1f4Fondo {
     width: 50%;
     height: 100%;
     
     
 }
-.c1f4Boton{
+
+.c1f4Boton {
     width: 50%;
     height: 100%;
     border: grey 1px solid;
@@ -127,27 +125,25 @@ box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
 -moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
 box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
 }
-.columna1Fila5{ 
+
+.columna1Fila5 { 
     width: 100%;
     height: 12.5%;
 }
 
-.columna1Fila6{ 
+.columna1Fila6 { 
     width: 100%;
     height: 37.5%;
     display: flex;
     flex-direction: row;
 }
 
-
-
-
-.c1f6Fondo{
+.c1f6Fondo {
     width: 50%;
     height: 100%;
     
 }
-.c1f6Boton{ 
+.c1f6Boton { 
     width: 50%;
     height: 100%;
     border: solid grey 1px;
@@ -155,23 +151,23 @@ box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
     border-bottom-left-radius: 0.2em;
     border-right: none;
 }
-.columna1Fila7{ 
+.columna1Fila7 { 
     width: 100%;
     height: 13%;
 }
 
-.columna1Fila8{ 
+.columna1Fila8 { 
     width: 100%;
     height: 5% ;
     display: flex;
     flex-direction: row;
 }
-.c1f8Fondo{
+.c1f8Fondo {
     width: 50%;
     height: 100%;
 }
 
-.c1f8Boton{ 
+.c1f8Boton { 
     width: 50%;
     height: 100%;
     border: grey 1px solid;
@@ -180,23 +176,26 @@ box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
     border-bottom-left-radius: 0.2em;
     -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
 -moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
-    
+box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);   
 }
-.columna1Fila9{ 
+
+.columna1Fila9 { 
     width: 100%;
     height: 4.9%;
 }
-.columna2{
+
+.columna2 {
     width: 20%;
     height: 100%;
     
 }
-.columna2Fila1{
+
+.columna2Fila1 {
     width: 100%;
     height:8.6% ;
 }
-.columna2Fila2{
+
+.columna2Fila2 {
     width: 100%;
     height:5% ;
     border: grey 1px solid;
@@ -205,10 +204,10 @@ box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
     border-left: none; 
     display: flex;
     flex-direction: row;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
-.greenRed{
+
+.greenRed {
 height: 100%;
 width: 30%;
 border-radius: 70%;
@@ -216,10 +215,9 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-left: 10%;
-
 }
 
-.led{
+.led {
     width: 80%;
     height: 30%;
     background-color: rgb(0, 0, 0);
@@ -227,7 +225,7 @@ margin-left: 10%;
     margin-left: 10%;
 }
 
-.ledON{ 
+.ledON { 
     width: 80%;
     height: 30%;
     background-color: rgb(72, 255, 0);
@@ -235,7 +233,7 @@ margin-left: 10%;
     margin-left: 10%;
 }
 
-.power{
+.power {
     height: 70%;
     width: 40%;
     display: flex;
@@ -245,20 +243,20 @@ margin-left: 10%;
     background-size: contain;
     margin-top: 0.36em;
     margin-left: 0.35em;
-    background-repeat: no-repeat;
-
-
-    
+    background-repeat: no-repeat;   
 }
+
 .fotoPower {
     height: 50%;
     color: grey;
 }
-.columna2Fila3{
+
+.columna2Fila3 {
     width: 100%;
     height:6.5% ;
 }
-.columna2Fila4{
+
+.columna2Fila4 {
     width: 100%;
     height: 5%;
     width: 100%;
@@ -268,11 +266,13 @@ margin-left: 10%;
     border-bottom-right-radius: 0.2em;
     border-left: none;
 }
-.columna2Fila5{
+
+.columna2Fila5 {
     width: 100%;
     height: 12.5%;
 }
-.columna2Fila6{
+
+.columna2Fila6 {
     width: 100%;
     height: 37.5%;
     border: grey 1px solid;
@@ -284,7 +284,7 @@ margin-left: 10%;
     align-items: center;
 }
 
-.compuerta{ 
+.compuerta { 
     width: 15%;
     height: 25%;
     border: solid grey 1px;
@@ -293,13 +293,15 @@ margin-left: 10%;
     border-bottom-left-radius: 0.2em;
     box-shadow: inset black 0 0.1em 0.1em 0;
 }
-.columna2Fila7{
+
+.columna2Fila7 {
     width: 100%;
     height:13% ;
     display: flex;
     align-items: flex-end;
 }
-.columna2Fila8{
+
+.columna2Fila8 {
     width: 100%;
     height: 5%;
     border: grey 1px solid;
@@ -310,14 +312,14 @@ margin-left: 10%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: 0.7em;
-    
-
 }
-.columna2Fila9{
+
+.columna2Fila9 {
     width: 100%;
     height: 0.98%;
 }
-.columna3{
+
+.columna3 {
     width: 20%;
     height: 100%;  
     display: flex;
@@ -325,14 +327,15 @@ margin-left: 10%;
     align-items: flex-end;
 }
 
-.contenedorLogoWii{ 
+.contenedorLogoWii { 
     width: 100%;
     height: 4%;
     background-image: url(../img/wiilogo.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
-.columna4{
+
+.columna4 {
     width: 20%;
     height: 100%;
     
@@ -341,12 +344,13 @@ margin-left: 10%;
     justify-content: center;
     align-items: center;
 }
-.columna4Fila1{
+
+.columna4Fila1 {
     width: 100%;
     height: 8.6%;
 }
 
-.columna4Fila2{ 
+.columna4Fila2 { 
     width: 80%;
     height: 83%;
     background-color: #2c3c63;
@@ -366,7 +370,7 @@ margin-left: 10%;
     border-radius: 50%; 
 }
 
-.ranura2{
+.ranura2 {
     width: 90%;
     height: 95%;
     border-radius: 50%;
@@ -374,19 +378,21 @@ margin-left: 10%;
 
 }
 
-.columna4Fila3{
+.columna4Fila3 {
     width: 100%;
     height: 4.9%;
 }
 
 
-.columna5{
+.columna5 {
     width: 20%;
     height: 100%;
     
 }
 
-.base{ 
+/* Código base Wii */
+
+.base { 
 height: 23.34%;
 width: 100%;
 display: flex;
@@ -396,7 +402,7 @@ align-items: center;
 
 }
 
-.baseGrande{ 
+.baseGrande { 
     height: 97%;
     width: 35%;
     display: flex;
@@ -407,18 +413,20 @@ align-items: center;
     box-shadow: 4px 3px 5px 1px black;
 }
 
-.basePequenya{
+.basePequenya {
     height: 3%;
     width: 30%;
     background-color: black;
 }
 
-.relleno2{
+.relleno2 {
     height: 5%;
     width: 100%;
 }
 
-.mando{ 
+/* Código del mando  */
+
+.mando { 
     width: 15%;
     height: 100%;
     display: flex;
@@ -436,13 +444,13 @@ background: linear-gradient(346deg, rgba(207,222,224,1) 46%, rgba(231,234,235,1)
     box-shadow: 3px 4px 5px 2px black;
 }
 
-.mandoFila1{ 
+.mandoFila1 { 
     width: 100%;
     height: 7%;
 
 }
 
-.mandoFila1Columna1{ 
+.mandoFila1Columna1 { 
     width: 25%;
     height: 100%;
     display: flex;
@@ -463,7 +471,7 @@ background: linear-gradient(346deg, rgba(207,222,224,1) 46%, rgba(231,234,235,1)
     
 }
 
-.botonPowerRojoIcono{ 
+.botonPowerRojoIcono { 
     width: 70%;
     height: 70%;
     background-image: url(../img/powerBBB.png);
@@ -472,18 +480,18 @@ background: linear-gradient(346deg, rgba(207,222,224,1) 46%, rgba(231,234,235,1)
     
 }
 
-.mandoFila2{ 
+.mandoFila2 { 
     width: 100%;
     height: 2%;
     font-size: 40%;
 }
 
-.textoMandoFila2{ 
+.textoMandoFila2 { 
     margin-left: 6%;
     font-weight: bold;
 }
 
-.mandoFila3{ 
+.mandoFila3 { 
 width: 100%;
 height: 15%;
 display: flex;
@@ -491,15 +499,13 @@ justify-content: center;
 align-items: center;
 }
 
-.cruceta{ 
+.cruceta { 
     width: 55%;
     height: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-
 }
 
 .crucetaFila1 { 
@@ -509,12 +515,13 @@ align-items: center;
     flex-direction: row;
 }
 
-.crucetaF1C1{
+.crucetaF1C1 {
     width: 33.33%;
     height: 100%;
     
 }
-.crucetaF1C2{
+
+.crucetaF1C2 {
     width: 33.33%;
     height: 100%;
     border-top-right-radius: 0.2em;
@@ -525,21 +532,21 @@ align-items: center;
     justify-content: center;
     align-items: center;
     box-shadow: 2px 0px 0px 0px #000000;
-
 }
-.crucetaF1C3{
+
+.crucetaF1C3 {
     width: 33.33%;
-    height: 100%;
-    
+    height: 100%;    
 }
 
-.crucetaFila2{ 
+.crucetaFila2 { 
     width: 100%;
     height: 33.33%;
     display: flex;
     flex-direction: row;
 }
-.crucetaF2C1{
+
+.crucetaF2C1 {
     width: 33.33%;
     height: 100%;
     border-top-left-radius: 0.2em;
@@ -553,24 +560,26 @@ align-items: center;
 box-shadow: 0px 2px 0px 0px #000000;
 }
 
-.paloVertical{ 
+.paloVertical { 
     width: 10%;
     height: 70%;
     background-color: grey;
     border-radius: 1000px;
 }
 
-.paloHorizontal{ 
+.paloHorizontal { 
     width: 70%;
     height: 12%;
     background-color: grey;
     border-radius: 1000px;
 }
-.crucetaF2C2{
+
+.crucetaF2C2 {
     width: 33.33%;
     height: 100%;    
 }
-.crucetaF2C3{
+
+.crucetaF2C3 {
     width: 33.33%;
     height: 100%;
     border-top-right-radius: 0.2em;
@@ -583,20 +592,20 @@ box-shadow: 0px 2px 0px 0px #000000;
     box-shadow: 2px 2px 0px 0px #000000;
 }
 
-.crucetaFila3{ 
+.crucetaFila3 { 
     width: 100%;
     height: 33.33%;
-    
     display: flex;
     flex-direction: row;
 }
 
-.crucetaF3C1{
+.crucetaF3C1 {
     width: 33.33%;
     height: 100%;
     
 }
-.crucetaF3C2{
+
+.crucetaF3C2 {
     width: 33.33%;
     height: 100%;
     border-bottom-left-radius: 0.2em;
@@ -606,23 +615,23 @@ box-shadow: 0px 2px 0px 0px #000000;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    box-shadow: 2px 2px 0px 0px #000000;
-     
+    box-shadow: 2px 2px 0px 0px #000000;    
 }
-.crucetaF3C3{
+
+.crucetaF3C3 {
     width: 33.33%;
     height: 100%;
     
 }
+
 .mandoFila4{ 
     width: 100%;
     height: 20% ;
-    
     display: flex;
     justify-content: center;
 }
-.botonA{ 
+
+.botonA { 
     width: 35%;
     height: 40%;
     margin-top: 10%;
@@ -636,14 +645,7 @@ box-shadow: 0px 2px 0px 0px #000000;
     background: linear-gradient(163deg, rgba(2,0,36,1) 0%, rgba(4,4,5,0.773546918767507) 0%, rgba(55,55,56,0) 26%, rgba(77,78,79,0) 46%, rgba(139,141,142,0) 100%);
 }
 
-.botonA::after{ 
-    width: 0.3em;
-    height: 0.3em;
-    background-color: red;
-    border-radius: 50%;
-}
-
-.mandoFila5{ 
+.mandoFila5 { 
     width: 100%;
     height: 5%;
     display: flex;
@@ -652,19 +654,17 @@ box-shadow: 0px 2px 0px 0px #000000;
     align-items: center;
 }
 
-.botonMenos{ 
+.botonMenos { 
     width: 15%;
     height: 70%;
     border-radius: 50%;
     background-image: url(../img/menosmenosB.png);
     background-size: cover;
     box-shadow: 1px 1.15px 1px 2px grey;
-    background-position-x: 2.15em ;
-    
-    
+    background-position-x: 2.15em ;   
 }
 
-.botonHome{ 
+.botonHome { 
     width: 15%;
     height: 70%;
     border-radius: 50%;
@@ -675,10 +675,9 @@ box-shadow: 0px 2px 0px 0px #000000;
     background-position: 0;
 }
 
-.botonMas{
+.botonMas {
     width: 15%;
     height: 70%;
-    
     border-radius: 50%;
     background-image: url(../img/masB.png);
     background-size: cover;
@@ -686,7 +685,7 @@ box-shadow: 0px 2px 0px 0px #000000;
     background-position: 0;
 }
 
-.mandoFila6{
+.mandoFila6 {
     height: 2% ;
     width: 100%; 
     display: flex;
@@ -694,7 +693,7 @@ box-shadow: 0px 2px 0px 0px #000000;
     align-items: center;
 }
 
-.textoMandoFila6{ 
+.textoMandoFila6 { 
     font-size: 60%;
     font-weight: bolder;
 }
@@ -706,13 +705,13 @@ box-shadow: 0px 2px 0px 0px #000000;
     justify-content: center;
     align-items: center;
 }
-.generalPuntitos{ 
+
+.generalPuntitos { 
     width: 23%;
     height: 80%;
-
 }
 
-.puntitosFila1{
+.puntitosFila1 {
     width: 100%;
     height: 16.66%;
     display: flex;
@@ -721,25 +720,28 @@ box-shadow: 0px 2px 0px 0px #000000;
     align-items: center;
 } 
 
-.puntitosF1Columna1{
+.puntitosF1Columna1 {
     height: 0.2em;
     width: 0.2em;
     background-color: black;
     border-radius: 50%;
 }
-.puntitosF1Columna2{
+
+.puntitosF1Columna2 {
     height: 0.2em;
     width: 0.2em;
     background-color: black;
     border-radius: 50%;
 }
-.puntitosF1Columna3{
+
+.puntitosF1Columna3 {
     height: 0.2em;
     width: 0.2em;
     background-color: black;
     border-radius: 50%;
 }
-.puntitosFila2{
+
+.puntitosFila2 {
     width: 100%;
     height: 16.66%;
     display: flex;
@@ -748,25 +750,28 @@ box-shadow: 0px 2px 0px 0px #000000;
     align-items: center;   
 } 
 
-.puntitosF2Columna1{
+.puntitosF2Columna1 {
     height: 0.3em;
     width: 0.3em;
     background-color: black;
     border-radius: 50%;
 }
-.puntitosF2Columna2{
+
+.puntitosF2Columna2 {
     height: 0.3em;
     width: 0.3em;
     background-color: black;
     border-radius: 50%;
 }
-.puntitosF2Columna3{
+
+.puntitosF2Columna3 {
     height: 0.3em;
     width: 0.3em;
     background-color: black;
     border-radius: 50%;
 }
-.puntitosFila3{
+
+.puntitosFila3 {
     width: 100%;
     height: 16.66%;
     display: flex;
@@ -775,25 +780,28 @@ box-shadow: 0px 2px 0px 0px #000000;
     align-items: center;
 } 
 
-.puntitosF3Columna1{
+.puntitosF3Columna1 {
     width: 0.5em;
     height: 0.5em;
     background-color: black;
     border-radius: 50%;
 }
-.puntitosF3Columna2{
+
+.puntitosF3Columna2 {
     width: 0.5em;
     height: 0.5em;
     background-color: black;
     border-radius: 50%;
 }
-.puntitosF3Columna3{
+
+.puntitosF3Columna3 {
     width: 0.5em;
     height: 0.5em;
     background-color: black;
     border-radius: 50%;
 }
-.puntitosFila4{
+
+.puntitosFila4 {
     width: 100%;
     height: 16.66%;
     display: flex;
@@ -802,25 +810,28 @@ box-shadow: 0px 2px 0px 0px #000000;
     align-items: center;
 } 
 
-.puntitosF4Columna1{
+.puntitosF4Columna1 {
     width: 0.5em;
     height: 0.5em;
     background-color: black;
     border-radius: 50%;
 }
-.puntitosF4Columna2{
+
+.puntitosF4Columna2 {
     width: 0.5em;
     height: 0.5em;
     background-color: black;
     border-radius: 50%;
 }
-.puntitosF4Columna3{
+
+.puntitosF4Columna3 {
     width: 0.5em;
     height: 0.5em;
     background-color: black;
     border-radius: 50%;
 }
-.puntitosFila5{
+
+.puntitosFila5 {
     width: 100%;
     height: 16.66%;
     display: flex;
@@ -829,25 +840,28 @@ box-shadow: 0px 2px 0px 0px #000000;
     align-items: center;
 } 
 
-.puntitosF5Columna1{
+.puntitosF5Columna1 {
     height: 0.3em;
     width: 0.3em;
     background-color: black;
     border-radius: 50%;
 }
-.puntitosF5Columna2{
+ 
+.puntitosF5Columna2 {
     height: 0.3em;
     width: 0.3em;
     background-color: black;
     border-radius: 50%;
 }
-.puntitosF5Columna3{
+
+.puntitosF5Columna3 {
     height: 0.3em;
     width: 0.3em;
     background-color: black;
     border-radius: 50%;
 }
-.puntitosFila6{
+
+.puntitosFila6 {
     width: 100%;
     height: 16.66%;
     display: flex;
@@ -856,38 +870,41 @@ box-shadow: 0px 2px 0px 0px #000000;
     align-items: center;
 } 
 
-.puntitosF6Columna1{
+.puntitosF6Columna1 {
     height: 0.2em;
     width: 0.2em;
     background-color: black;
     border-radius: 50%;
 }
-.puntitosF6Columna2{
-    height: 0.2em;
-    width: 0.2em;
-    background-color: black;
-    border-radius: 50%;
-}
-.puntitosF6Columna3{
+
+.puntitosF6Columna2 {
     height: 0.2em;
     width: 0.2em;
     background-color: black;
     border-radius: 50%;
 }
 
-.mandoFila8{ 
+.puntitosF6Columna3 {
+    height: 0.2em;
+    width: 0.2em;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.mandoFila8 { 
     width: 100%;
     height: 17%;
 }
 
-.mandoF8F1{
+.mandoF8F1 {
     width: 100%;
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.boton1{
+
+.boton1 {
     width: 2em;
     height: 2em;
     border-radius: 50%;
@@ -898,14 +915,16 @@ box-shadow: 0px 2px 0px 0px #000000;
     font-weight: bolder;
     box-shadow: 1px 1.15px 1px 2px grey;
 }
-.mandoF8F2{ 
+
+.mandoF8F2 { 
     width: 100%;
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.boton2{
+
+.boton2 {
     width: 2em;
     height: 2em;
     border-radius: 50%;
@@ -916,7 +935,8 @@ box-shadow: 0px 2px 0px 0px #000000;
     font-weight: bolder;
     box-shadow: 1px 1.15px 1px 2px grey;
 }
-.mandoFila9{
+
+.mandoFila9 {
     width: 100%;
     height: 2%;
     display: flex;
@@ -933,14 +953,14 @@ box-shadow: 0px 2px 0px 0px #000000;
     margin-top: 0.7em;
 }
 
-.b1p1{
+.b1p1 {
     height: 0.15em;
     width: 0.12em;
     background-color: #808080;
     border-radius: 50%;
 }
 
-.braille2{
+.braille2 {
     height: 100%;
     width: 15%;
     display: flex;
@@ -949,34 +969,49 @@ box-shadow: 0px 2px 0px 0px #000000;
     
 }
 
-.b2p1{height: 0.15em;
+.b2p1 {
+    height: 0.15em;
     width: 0.12em;
     background-color: #808080;
-    border-radius: 50%;}
-.b2p2{height: 0.15em;
+    border-radius: 50%;
+}
+
+.b2p2 {
+    height: 0.15em;
     width: 0.12em;
     background-color: #808080;
-    border-radius: 50%;}
-.braille3{
+    border-radius: 50%;
+}
+
+.braille3 {
     height: 100%;
     width: 15%;
     display: flex;
     margin-top: 0.7em;
 }
 
-.b3p1{height: 0.15em;
+.b3p1 {
+    height: 0.15em;
     width: 0.12em;
     background-color: #808080;
-    border-radius: 50%;}
-.b3p2{height: 0.15em;
+    border-radius: 50%;
+}
+
+.b3p2 {
+    height: 0.15em;
     width: 0.12em;
     background-color: #808080;
-    border-radius: 50%;}
-.b3p3{height: 0.15em;
+    border-radius: 50%;
+}
+
+.b3p3 { 
+    height: 0.15em;
     width: 0.12em;
     background-color: #808080;
-    border-radius: 50%;}
-.braille4{
+    border-radius: 50%;
+}
+
+.braille4 {
     height: 100%;
     width: 15%;
     margin-right: 0.1em;
@@ -984,64 +1019,66 @@ box-shadow: 0px 2px 0px 0px #000000;
     margin-top: 0.7em;
 }
 
-.b4p1{
+.b4p1 {
     height: 0.15em;
     width: 0.12em;
     background-color: #808080;
     border-radius: 50%; 
 }
-.b4p2{
+.b4p2 {
     height: 0.15em;
     width: 0.12em;
     background-color: #808080;
     border-radius: 50%;
 }
-.b4p3{
-    height: 0.15em;
-    width: 0.12em;
-    background-color: #808080;
-    border-radius: 50%;
-}
-.b4p4{
+.b4p3 {
     height: 0.15em;
     width: 0.12em;
     background-color: #808080;
     border-radius: 50%;
 }
 
-
+.b4p4 {
+    height: 0.15em;
+    width: 0.12em;
+    background-color: #808080;
+    border-radius: 50%;
+}
 
 .mandoFila10 { 
     width: 100%;
     height: 4%;
-    
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.cuadradoLed1{
+.cuadradoLed1 {
     height: 0.7em;
     width: 0.7em;
     background-color: #07a4cc;
     box-shadow:  #3cd8ff 0 0 5px 1px;
 }
-.cuadradoLed2{
-    height: 0.7em;
-    width: 0.7em;
-    background-color:rgb(71, 65, 65) ;}
-.cuadradoLed3{
-    height: 0.7em;
-    width: 0.7em;
-    background-color:rgb(71, 65, 65) ;}
-.cuadradoLed4{
+.cuadradoLed2 {
     height: 0.7em;
     width: 0.7em;
     background-color:rgb(71, 65, 65) ;
 }
 
-.mandoFila11{ 
+.cuadradoLed3 {
+    height: 0.7em;
+    width: 0.7em;
+    background-color:rgb(71, 65, 65) ;
+
+}
+.cuadradoLed4 { 
+    height: 0.7em;
+    width: 0.7em;
+    background-color:rgb(71, 65, 65) ;
+}
+
+.mandoFila11 { 
     width: 100%;
     height: 6%;
     display: flex;
@@ -1049,7 +1086,7 @@ box-shadow: 0px 2px 0px 0px #000000;
     align-items: center;
 }
 
-.logoWiiMando{
+.logoWiiMando {
     width: 30%;
     height: 100%;
     background-image: url(../img/wiilogo.png);
@@ -1060,11 +1097,9 @@ box-shadow: 0px 2px 0px 0px #000000;
 
 .down:active {
     transform: scale(0.9);
-
 }
 
-
-.juegos{ 
+.juegos { 
     width: 50%;
     height: 100%;
     display: flex;
@@ -1072,15 +1107,16 @@ box-shadow: 0px 2px 0px 0px #000000;
     justify-content: center;
     align-items: center;
 }
+
 .tele { 
     width: 60%;
     height: 40%;
-    
-
 }
 
 .teleOn{
     width: 60%;
     height: 40%;
-    background-video: url(https://www.youtube.com/watch?v=crQeb1pm2IA);
+    background-image: url(../img/luigisDancing.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
