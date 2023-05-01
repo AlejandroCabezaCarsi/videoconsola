@@ -4,6 +4,7 @@
     font-weight: bold;
     color: grey;
     font-size: 0.93em;
+    user-select: none ;
                                                 
 }
 
@@ -44,8 +45,9 @@ body{
 height: 77%;
 width: 100%;
 display: flex;
-justify-content: center;
-align-items: flex-end;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
 
 }
 
@@ -58,6 +60,8 @@ align-items: flex-end;
     background: linear-gradient(90deg, rgba(230,233,233,1) 20%, rgba(204,208,213,1) 22%);
     box-shadow: 2px 1px 7px 3px black;
 }
+
+
 .columna1{ 
     width: 20%;
     height: 100%;
@@ -153,7 +157,7 @@ box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
 }
 .columna1Fila7{ 
     width: 100%;
-    height: 15%;
+    height: 13%;
 }
 
 .columna1Fila8{ 
@@ -201,6 +205,7 @@ box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.74);
     border-left: none; 
     display: flex;
     flex-direction: row;
+    cursor: pointer;
     
 }
 .greenRed{
@@ -217,10 +222,19 @@ margin-left: 10%;
 .led{
     width: 80%;
     height: 30%;
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     border-radius: 50%;
     margin-left: 10%;
 }
+
+.ledON{ 
+    width: 80%;
+    height: 30%;
+    background-color: rgb(72, 255, 0);
+    border-radius: 50%;
+    margin-left: 10%;
+}
+
 .power{
     height: 70%;
     width: 40%;
@@ -281,7 +295,7 @@ margin-left: 10%;
 }
 .columna2Fila7{
     width: 100%;
-    height:15% ;
+    height:13% ;
     display: flex;
     align-items: flex-end;
 }
@@ -305,8 +319,18 @@ margin-left: 10%;
 }
 .columna3{
     width: 20%;
-    height: 100%;
-    
+    height: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.contenedorLogoWii{ 
+    width: 100%;
+    height: 4%;
+    background-image: url(../img/wiilogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .columna4{
     width: 20%;
@@ -324,7 +348,7 @@ margin-left: 10%;
 
 .columna4Fila2{ 
     width: 80%;
-    height: 90%;
+    height: 83%;
     background-color: #2c3c63;
     -webkit-border-radius: 1000px;
     border-radius: 1000px;    
@@ -427,8 +451,8 @@ background: linear-gradient(346deg, rgba(207,222,224,1) 46%, rgba(231,234,235,1)
 }
 
 .botonPowerRojo { 
-    width: 55%;
-    height: 50%;
+    width: 65%;
+    height: 60%;
     margin-bottom: 10%;
     margin-right: 0.4em;
     border-radius: 50%;
@@ -440,12 +464,12 @@ background: linear-gradient(346deg, rgba(207,222,224,1) 46%, rgba(231,234,235,1)
 }
 
 .botonPowerRojoIcono{ 
-    width: 90%;
-    height: 90%;
-    background-image: url(../img/powerBB.png);
+    width: 70%;
+    height: 70%;
+    background-image: url(../img/powerBBB.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-x: 0.05em;
+    
 }
 
 .mandoFila2{ 
@@ -607,8 +631,9 @@ box-shadow: 0px 2px 0px 0px #000000;
     justify-content: center;
     align-items: center;
     font-size:large;
-    box-shadow: inset 0.1em 0.2em 0.3em 0.1em black,
+    box-shadow: inset 0.1em 0.2em 0.3em 0 black,
     inset -0.12em 0em 0.3em 0.3em white;
+    background: linear-gradient(163deg, rgba(2,0,36,1) 0%, rgba(4,4,5,0.773546918767507) 0%, rgba(55,55,56,0) 26%, rgba(77,78,79,0) 46%, rgba(139,141,142,0) 100%);
 }
 
 .botonA::after{ 
@@ -1031,4 +1056,31 @@ box-shadow: 0px 2px 0px 0px #000000;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50%;
+}
+
+.down:active {
+    transform: scale(0.9);
+
+}
+
+
+.juegos{ 
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tele { 
+    width: 60%;
+    height: 40%;
+    
+
+}
+
+.teleOn{
+    width: 60%;
+    height: 40%;
+    background-video: url(https://www.youtube.com/watch?v=crQeb1pm2IA);
 }
